@@ -1,0 +1,158 @@
+---
+layout: default
+---
+<!DOCTYPE HTML>
+<head>
+	<style>
+		.justified-text {
+		text-align: justify;
+		}
+		.carousel-container {
+		width: 95%;
+		margin: auto;
+		overflow: hidden;
+		}
+
+		.carousel {
+		display: flex;
+		transition: transform 0.5s ease-in-out;
+		}
+
+		.carousel img {
+		width: 100%;
+		height: auto;
+		}
+
+		.centered-div {
+		width: 50%; 
+		margin: 0 auto; 
+		padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	
+	<h1>Embodied exploration of deep latent spaces in interactive dance-music performance</h1>
+
+	<p class="justified-text"><em>This website is still under construction and is linked to our paper submission to the <a href="https://moco24.movementcomputing.org/">MOCO'24</a> Conference on Movement and Computing.</em></p>
+	<br>
+	<p class="justified-text">In recent years, significant advances have been made in deep learning models for audio generation, 
+		offering promising tools for musical creation. In this work, we investigate the use of deep audio generative models 
+		in interactive dance/music performance. We adopted a performance-led research design approach, establishing an 
+		art-research collaboration between a researcher/musician and a dancer.
+		In the paper, we introduce our motion-sound interactive system integrating deep audio generative model and propose 
+		three methods for embodied exploration of deep latent spaces. Then, we detail the creative process for building the 
+		performance centered on the co-design of the system. Finally, we report feedback from the dancer's interviews and 
+		discuss the results and perspectives regarding the use of Artificial Intelligence (AI) in dance-music practices.
+	</p>
+	Here, we provide further details and supplementary materials with examples on:
+	<ul>
+		<li><a href="#section1">Our movement-sound interactive system</a> and the three proposed interaction methods:</li> 
+		<ul>
+			<li><a href="#section1-1">interaction I1</a>: direct motion exploration</li>
+			<li><a href="#section1-2">interaction I2</a>: local exploration around existing latent trajectories</li>
+			<li><a href="#section1-3">interaction I3</a>: implicit mapping between motion and latent trajectories</li>
+		</ul>
+		<li><a href="#section2">The performance <em>PRELUDE</em></a></li>
+	</ul>
+	
+	
+	<h1 id="section1">Our movement-sound interactive system</h1>
+
+	<p class="justified-text">As depicted in the Figure bellow, the dancer and musician both interact with the system. The 
+		dancer is equiped with wireless motion sensors composed of accelerometers and gyroscopes. The dancer's movements are
+		analysed in real-time to compute a set of motion descriptors which are mapped to the latent space, depending on the 
+		different interaction methods. The resulting latent trajectories are processed in real-time by the pre-trained RAVE 
+		decoder which generates the final audio outcome.
+	</p>
+	<p class="justified-text">
+		<img src="./assets/img/fig_system.png" alt="motion-sound interactive system">
+	</p>
+	<br>
+	<p class="justified-text">	
+		Please, refer to the paper for further details. Here, we aim to illustrate each interaction method with examples from the performance.
+	</p>
+	<br>
+	<p class="justified-text">We implemented our motion-sound interactive system in <a href="https://cycling74.com/">Max/MSP</a>. 
+		We used <a href="https://ismm.ircam.fr/riot/"><em>R-IoT</em></a> IMU motion sensors composed of accelerometers and 
+		gyroscopes with the <a href="https://ismm.ircam.fr/mubu/"><em>MuBu</em></a> library and the 
+		<a href="https://github.com/ircam-ismm/Gestural-Sound-Toolkit"><em>Gestural toolkit</em></a> for real-time motion 
+		capture and analysis. For deep audio generation, we relied on the <a href="https://github.com/acids-ircam/RAVE">RAVE</a> 
+		model which enables fast and high-quality audio waveform synthesis in real-time on standard laptop CPU, and we used 
+		the <a href="https://github.com/acids-ircam/nn_tilde"><em>nn_tilde</em></a> external to import our pre-trained RAVE models 
+		in Max/MSP.
+	</p>
+	<br>
+	<p class="justified-text">The Max/MSP patches for implementing each of the 3 proposed interaction methods for embodied exploration of RAVE latent spaces are publicly available on our <a href="https://github.com/anonymous4research1/embodied-latent-exploration">GitHub</a>. We will also provide demo tutorial videos after the paper reviews.</p> 
+
+	
+
+	<h2 id="section1-1">Interaction <b>I1</b>: direct motion exploration</h2>
+	<p></p>
+	<div class="carousel-container">
+		<iframe src="https://drive.google.com/file/d/1wZNuoJC6_PddL0cB-aeLAFYEUSdxiZ9C/preview" width="640" height="480" allow="autoplay"></iframe>
+	</div>
+	
+	<h2 id="section1-2">Interaction <b>I2</b>: local exploration around existing latent trajectories</h2>
+	
+	<div class="carousel-container">
+		<iframe src="https://drive.google.com/file/d/16oAE3cLO6JAgY-2j7svwlf2RF5vbP2H2/preview" width="640" height="480" allow="autoplay"></iframe>
+	</div>
+	
+	<h2 id="section1-3">Interaction <b>I3</b>: implicit mapping between motion and latent trajectories</h2>
+
+	<div class="carousel-container">
+		<iframe src="https://drive.google.com/file/d/1z2USuO9_d4rnkmQY-W_w6LkOG7hfPo8Y/preview" width="640" height="480" allow="autoplay"></iframe>
+	</div>
+
+	<h1 id="section2">The performance <em>PRELUDE</em></h1>
+
+	<p class="justified-text"><em>PRELUDE</em> is a 20-minutes live dance/music performance where
+		the dancer Marie Bruand produces sounds in real-time through her movements. The piece unfolds a 
+		metaphoric "liberation" of the dancer’s body.
+		Connected at the beginning of the piece with fake cables, the dancer
+		progressively embraces a new "musical body". It stages diverse
+		qualities of embodied exploration of sound spaces as she navigates
+		them through her movements under the guidance of the musician.
+		The performance is structured into three parts, one for each exploration method,
+		in the following order (<b>I2</b>, <b>I1</b>, <b>I3</b>).
+		Although structured with the choice of specific interaction method and audio spaces, each part
+		contains a varying degree of improvisation for both the dancer and musician who interact together
+		<em>through</em> and <em>with</em> the system.
+	</p> 
+	<br>
+	<p class="justified-text">Recording of one of the performances presented at the art festival <em>Nuit Blanche 2023</em> in Paris:</p>
+	
+	<div class="carousel-container">
+        	<iframe width="560" height="315" src="https://www.youtube.com/embed/EdsBscNFBBA?si=hzm-spbYrFcd1hD9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    	</div>
+	<br>
+	<div class="carousel-container">
+		<div class="carousel">
+			<img src="assets/img/IMG_nuit_blanche.jpg">
+		  </div>
+		<div class="carousel">
+		  <img src="assets/img/IMG_9419.JPG"> 
+		  <img src="assets/img/IMG_9493.JPG"> 
+		</div>
+		<div class="carousel">
+			<img src="assets/img/IMG_9448.JPG">
+			<img src="assets/img/IMG_9506.JPG">
+		</div>
+		<div class="carousel">
+			<img src="assets/img/IMG_9471.JPG">
+			<img src="assets/img/IMG_9513.JPG">
+		</div>
+		<div class="carousel">
+			<img src="assets/img/IMG_9455.JPG">
+			<img src="assets/img/IMG_9397.JPG">
+			
+		</div>
+	  </div>
+	  <br>
+	
+
+	<h2>Acknowledgments</h2>
+	<p>Removed for anonymous submission</p>
+</body>
+</html>
