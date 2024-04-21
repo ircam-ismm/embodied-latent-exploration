@@ -1,6 +1,6 @@
 # Embodied exploration of deep latent spaces in interactive dance-music performance
 
-This repository is linked to our paper submission to the [MOCO'24](https://moco24.movementcomputing.org/) Conference on Movement and Computing. Please, visit our [GitHub page](https://anonymous4research1.github.io/embodied-latent-exploration/) for supplementary materials with examples.
+This repository is linked to our paper submission to the [MOCO'24](https://moco24.movementcomputing.org/) Conference on Movement and Computing. Please, visit our [GitHub page](https://ircam-ismm.github.io/embodied-latent-exploration/) for supplementary materials with examples.
 
 In this work, we investigate the use of deep audio generative models in interactive dance/music performance. We introduce a motion-sound interactive system integrating deep audio generative model and propose three embodied interaction methods to explore deep audio latent spaces through movements. Please, refer to the paper for further details.
 
