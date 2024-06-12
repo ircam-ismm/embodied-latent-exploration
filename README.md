@@ -33,6 +33,7 @@ You can download pre-trained RAVE models in [here](https://acids-ircam.github.io
 ![interaction1](./docs/assets/img/interaction1.png)
 
 **Tutorial video:**
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YEnCDyyMONs/0.jpg)](https://www.youtube.com/watch?v=YEnCDyyMONs)
 
 ### Interaction I2: local exploration around existing latent trajectories
@@ -40,7 +41,8 @@ You can download pre-trained RAVE models in [here](https://acids-ircam.github.io
 ![interaction2](./docs/assets/img/interaction2.png)
 
 **Tutorial video:**
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ys-JO3fACQ0&t/0.jpg)](https://www.youtube.com/watch?v=Ys-JO3fACQ0&t)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ys-JO3fACQ0/0.jpg)](https://www.youtube.com/watch?v=Ys-JO3fACQ0)
 
 
 ### Interaction I3: implicit mapping between motion descriptors and latent trajectories
@@ -54,6 +56,7 @@ You can download pre-trained RAVE models in [here](https://acids-ircam.github.io
 ![interaction3_inference](./docs/assets/img/interaction3_inference.png)
 
 **Tutorial video:**
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SRlr5qbBy0E/0.jpg)](https://www.youtube.com/watch?v=SRlr5qbBy0E)
 
 
