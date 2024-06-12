@@ -1,5 +1,9 @@
 # Embodied exploration of deep latent spaces in interactive dance-music performance
 
+*Sarah Nabi, Philippe Esling, Geoffroy Peeters and Frédéric Bevilacqua.*
+
+*In collaboration with the dancer/choreographer Marie Bruand.*
+
 This repository is linked to our [paper](https://hal.science/hal-04602229) presented at the 9th International Conference on Movement and Computing [MOCO'24](https://moco24.movementcomputing.org/). Please, visit our [GitHub page](https://ircam-ismm.github.io/embodied-latent-exploration/) for supplementary materials with examples.
 
 In this work, we investigate the use of deep audio generative models in interactive dance/music performance. We introduce a motion-sound interactive system integrating deep audio generative model and propose three embodied interaction methods to explore deep audio latent spaces through movements. Please, refer to the paper for further details.
@@ -36,7 +40,7 @@ You can download pre-trained RAVE models in [here](https://acids-ircam.github.io
 ![interaction2](./docs/assets/img/interaction2.png)
 
 **Tutorial video:**
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ys-JO3fACQ0&t=2s/0.jpg)](https://www.youtube.com/watch?v=Ys-JO3fACQ0&t=2s)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ys-JO3fACQ0&t/0.jpg)](https://www.youtube.com/watch?v=Ys-JO3fACQ0&t)
 
 
 ### Interaction I3: implicit mapping between motion descriptors and latent trajectories
