@@ -1,11 +1,11 @@
 # Embodied exploration of deep latent spaces in interactive dance-music performance
 
-This repository is linked to our [paper](https://hal.science/hal-04602229) presented at the [MOCO'24](https://moco24.movementcomputing.org/) Conference on Movement and Computing. Please, visit our [GitHub page](https://ircam-ismm.github.io/embodied-latent-exploration/) for supplementary materials with examples.
+This repository is linked to our [paper](https://hal.science/hal-04602229) presented at the 9th International Conference on Movement and Computing [MOCO'24](https://moco24.movementcomputing.org/). Please, visit our [GitHub page](https://ircam-ismm.github.io/embodied-latent-exploration/) for supplementary materials with examples.
 
 In this work, we investigate the use of deep audio generative models in interactive dance/music performance. We introduce a motion-sound interactive system integrating deep audio generative model and propose three embodied interaction methods to explore deep audio latent spaces through movements. Please, refer to the paper for further details.
 
 
-You can find the Max/MSP patches for 3 proposed embodied interaction methods in the [`code/`](https://github.com/ircam-ismm/embodied-latent-exploration/tree/main/code) folder. We also provide tutorial videos in the [Usage](#usage) section.
+You can find the Max/MSP patches for the 3 proposed embodied interaction methods in the [`code/`](https://github.com/ircam-ismm/embodied-latent-exploration/tree/main/code) folder. We also provide tutorial videos in the [Usage](#usage) section.
 
 NB: You can use the Max/MSP patches with other IMU sensors by replacing the `riotbitalino` object.
 
@@ -29,15 +29,15 @@ You can download pre-trained RAVE models in [here](https://acids-ircam.github.io
 ![interaction1](./docs/assets/img/interaction1.png)
 
 **Tutorial video:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YEnCDyyMONs?si=w5qLReEmB02UzcsX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YEnCDyyMONs/0.jpg)](https://www.youtube.com/watch?v=YEnCDyyMONs)
 
 ### Interaction I2: local exploration around existing latent trajectories
 
 ![interaction2](./docs/assets/img/interaction2.png)
 
 **Tutorial video:**
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ys-JO3fACQ0&t=2s/0.jpg)](https://www.youtube.com/watch?v=Ys-JO3fACQ0&t=2s)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ys-JO3fACQ0?si=BBNzwJg4hW4C-PA2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Interaction I3: implicit mapping between motion descriptors and latent trajectories
 
@@ -50,8 +50,7 @@ You can download pre-trained RAVE models in [here](https://acids-ircam.github.io
 ![interaction3_inference](./docs/assets/img/interaction3_inference.png)
 
 **Tutorial video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SRlr5qbBy0E?si=-Vi_HvsCDz9YEflb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SRlr5qbBy0E/0.jpg)](https://www.youtube.com/watch?v=SRlr5qbBy0E)
 
 
 ## Acknowledgments
