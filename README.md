@@ -1,12 +1,13 @@
 # Embodied exploration of deep latent spaces in interactive dance-music performance
 
-This repository is linked to our paper submission to the [MOCO'24](https://moco24.movementcomputing.org/) Conference on Movement and Computing. Please, visit our [GitHub page](https://ircam-ismm.github.io/embodied-latent-exploration/) for supplementary materials with examples.
+This repository is linked to our [paper](https://hal.science/hal-04602229) presented at the [MOCO'24](https://moco24.movementcomputing.org/) Conference on Movement and Computing. Please, visit our [GitHub page](https://ircam-ismm.github.io/embodied-latent-exploration/) for supplementary materials with examples.
 
 In this work, we investigate the use of deep audio generative models in interactive dance/music performance. We introduce a motion-sound interactive system integrating deep audio generative model and propose three embodied interaction methods to explore deep audio latent spaces through movements. Please, refer to the paper for further details.
 
 
+You can find the Max/MSP patches for 3 proposed embodied interaction methods in the [`code/`](https://github.com/ircam-ismm/embodied-latent-exploration/tree/main/code) folder. We also provide tutorial videos in the [Usage](#usage) section.
 
-***The source code will be fully released with demo-tutorials after the paper reviews. For now, we simply provide an overview of the patch for each interaction method in the [Usage](#usage) section.***
+NB: You can use the Max/MSP patches with other IMU sensors by replacing the `riotbitalino` object.
 
 
 ## Install and requirements
@@ -27,10 +28,16 @@ You can download pre-trained RAVE models in [here](https://acids-ircam.github.io
 
 ![interaction1](./docs/assets/img/interaction1.png)
 
+**Tutorial video:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YEnCDyyMONs?si=w5qLReEmB02UzcsX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Interaction I2: local exploration around existing latent trajectories
 
 ![interaction2](./docs/assets/img/interaction2.png)
 
+**Tutorial video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ys-JO3fACQ0?si=BBNzwJg4hW4C-PA2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Interaction I3: implicit mapping between motion descriptors and latent trajectories
 
@@ -42,8 +49,22 @@ You can download pre-trained RAVE models in [here](https://acids-ircam.github.io
 
 ![interaction3_inference](./docs/assets/img/interaction3_inference.png)
 
+**Tutorial video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SRlr5qbBy0E?si=-Vi_HvsCDz9YEflb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Acknowledgments
 
-Removed for anonymous submission
+This work has been supported by the Paris Ile-de-France Région in the framework of DIM AI4IDF, and by Nuit Blanche-Ville de Paris. We extend our heartfelt thanks to Marie Bruand without which this study would not have been possible. We are also deeply grateful to our friends and colleagues from the STMS-IRCAM lab, particularly Victor Paredes, Antoine Caillon and Victor Bigand.
+
+## Citation
+```
+@inproceedings{nabi2024embodied,
+  title={Embodied exploration of deep latent spaces in interactive dance-music performance},
+  author={Nabi, Sarah and Esling, Philippe and Peeters, Geoffroy and Bevilacqua, Fr{\'e}d{\'e}ric},
+  booktitle={Proceedings of the 9th International Conference on Movement and Computing},
+  pages={1--8},
+  year={2024}
+}
+```
