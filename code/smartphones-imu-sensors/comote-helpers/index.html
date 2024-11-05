@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    button {
+      width: 100%;
+/*      height: 300px;*/
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <button
+    comote-key="coucou"
+    comote-touchstart="1"
+    comote-touchend="0"
+  >A</button>
+
+  <button
+    comote-key="coucou-2"
+    comote-touchstart="1"
+    comote-touchend="0"
+  >B</button>
+
+    <button
+    comote-key="coucou-2"
+    comote-touchstart="1"
+    comote-touchend="0"
+  >C</button>
+
+  <script>
+     oninput="function(e) { sendEvent('slider', e.value); }"
+  </script>
+</body>
+</html>

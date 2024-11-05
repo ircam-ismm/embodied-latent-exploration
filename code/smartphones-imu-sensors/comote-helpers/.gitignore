@@ -1,0 +1,9 @@
+# junk files
+.DS_Store
+Thumbs.db
+
+node_modules
+/server.js
+/qrcode.js
+/wifi-infos.js
+example/.vendors
