@@ -14,6 +14,16 @@ You can find the Max/MSP patches for the 3 proposed embodied interaction methods
 NB: You can use the Max/MSP patches with other IMU sensors by replacing the `riotbitalino` object.
 
 
+## V2.0 new release!
+
+- We propose new MaxMSP patches to use the 3 embodied interactions strategies introduced in our paper with **smartphone's IMU motion sensors** instead of R-IoTs sensors initially used. To do so, we rely on the [**CoMote**](https://github.com/ircam-ismm/comote.git) package developed by the [ISMM](https://ircam-ismm.github.io/) team at IRCAM.
+The implementation is available in the [./code/smartphones-imu-sensors/](./code/smartphones-imu-sensors/README.md) directory.
+
+-  We propose new MaxMSP patches to use the embodied interactions strategies introduced in our paper with hands position tracking instead of R-IoTs IMU sensors initially used. To do so, we rely on [MediaPipe](https://github.com/google-ai-edge/mediapipe) with Max's javascript object `jweb` connected to a live webcamera stream.
+We used the [`jweb-hands-landmarker` github repository](https://github.com/lysdexic-audio/jweb-hands-landmarker.git).
+The implementation is available in the [./code/mediapipe-hands-landmarks](./code/mediapipe-hands-landmarks/README.md) directory.
+
+
 ## Install and requirements
 
 Our motion-sound interactive system implemented in Max/MSP. 
@@ -58,6 +68,7 @@ You can download pre-trained RAVE models in [here](https://acids-ircam.github.io
 **Tutorial video:**
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SRlr5qbBy0E/0.jpg)](https://www.youtube.com/watch?v=SRlr5qbBy0E)
+
 
 
 ## Acknowledgments
