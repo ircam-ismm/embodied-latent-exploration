@@ -7,6 +7,10 @@ We have cloned the [`comote-helpers` official github repository](https://github.
 
 1. On your smartphone, go to the App store and download the **CoMote** application.
 
+**UPDATE - CoMote V2**: activate "Version 2 Compatibility Mode":
+
+<img src="./docs/comote_config.jpg" alt="comote-config" width="200"/>
+
 2. Then, open MaxMSP and in "`Options > File Preferences ...`" add the absolute path to `./embodied-latent-exploration/code/smartphones-imu-sensors/comote-helpers/max`directory.
 
 3. Open the `CoMote_smartphone_imu_datastream.maxpat` patch in Max. Open the CoMote application on your smartphone and scan the QR code. 
